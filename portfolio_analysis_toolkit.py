@@ -68,7 +68,7 @@ def portfolio_vol(weights, covmat):
 def ew(er):
     
     """
-    Retourne les poids égaux pour chaque actif.
+    Returns equal weights for each asset.
     """
     n = len(er)
     return np.repeat(1/n, n)
